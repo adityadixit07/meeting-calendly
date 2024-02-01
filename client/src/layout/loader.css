@@ -1,0 +1,16 @@
+.spinner div {
+    border-radius: 50%;
+    animation: rotate360 1s linear infinite;
+}
+.spinner div {
+    border-bottom-color: transparent;
+}
+
+@keyframes rotate360 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
